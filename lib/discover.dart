@@ -279,8 +279,8 @@ class _DiscoverState extends State<Discover> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Image.asset('assets/images/home.png'),
-                          const Text('Home'),
+                          Image.asset('assets/images/bag.png'),
+                          const Text('Cart'),
                         ],
                       ),
                     ),
