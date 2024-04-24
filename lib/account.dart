@@ -224,7 +224,7 @@ class _AccountState extends State<Account> {
                               'Sign Up with Facebook',
                               style: TextStyle(
                                 fontSize: 17,
-                                color: Colors.black,
+                                color: Colors.white,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
