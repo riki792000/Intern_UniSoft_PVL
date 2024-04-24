@@ -276,12 +276,22 @@ class _DiscoverState extends State<Discover> {
                       ),
                     ),
                     Expanded(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Image.asset('assets/images/bag.png'),
-                          const Text('Cart'),
-                        ],
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) {
+                              return const Details();
+                            }),
+                          );
+                        },
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Image.asset('assets/images/bag.png'),
+                            const Text('Cart'),
+                          ],
+                        ),
                       ),
                     ),
                     Expanded(
@@ -290,7 +300,7 @@ class _DiscoverState extends State<Discover> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(builder: (context) {
-                              return const Details();
+                              return  const Details();
                             }),
                           );
                         },
